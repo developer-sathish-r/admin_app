@@ -326,10 +326,10 @@ const AddUser = () => {
 
                                     <Col className='image'>
                                         {id ? <>
-                                            {file ? <Image width={100} src={baseImage} /> :
-                                                <Image width={100} src={edit.imageurl} />}
+                                            {file ? <Image width={80} src={baseImage} /> :
+                                                <Image width={80} src={edit.imageurl} />}
                                         </>
-                                            : <Image width={100} src={baseImage} />}
+                                            : <Image width={80} src={baseImage} />}
 
                                     </Col>
 
