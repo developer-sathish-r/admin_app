@@ -101,6 +101,7 @@ body {
 .burger-btn {
   margin-top: 10px;
   align-items: center;
+  color: #000000 !important;
 }
 
 .aside{
@@ -110,7 +111,9 @@ body {
 .ant-menu .ant-menu-root .ant-menu-vertical .ant-menu-dark menu .ant-menu-inline-collapsed .css-dev-only-do-not-override-vryruh{
 padding-left: 500px !important;
 }
-
+:where(.css-dev-only-do-not-override-vryruh).ant-popover .ant-popover-inner {
+  background-color: #FFDEDE;
+}
 .profile {
   padding: 10px;
   border-radius: 16px;
@@ -143,7 +146,7 @@ padding-left: 500px !important;
   padding-left: 4vw;
 }
 .image{
-  margin: 0 35px;
+  margin: 0 25px;
   height: 40px;
 }
 
@@ -156,12 +159,13 @@ padding-left: 500px !important;
   color: white;
   margin-left: 10px;
   border-radius: 5px;
+  margin-top: 150px;
 }
 
 /* --------   Add User ---------- */
 .addUser_form {
   background-color: black;
-  padding: 13px 50px;
+  padding: 50px 100px;
   border-radius: 10px;
 }
 
@@ -197,6 +201,7 @@ padding-left: 500px !important;
   border-color: white;
   color: white;
   width: 100%;
+  margin-top: 45px;
 }
 
 :where(.css-dev-only-do-not-override-vryruh).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
@@ -206,12 +211,17 @@ padding-left: 500px !important;
 
 .upload-btn {
   margin-top: 30px;
+  background-color: #000000;
 }
 
 .adjust_button_hover_drawer.ant-btn:hover {
   border-color: white !important;
 }
 
+:where(.css-dev-only-do-not-override-vryruh).ant-ribbon.ant-ribbon-color-purple {
+  color:#626ac8;
+  background-color:#626ac8 ;
+}
 .users {
   font-weight: 400;
   color: white;
@@ -244,25 +254,25 @@ padding-left: 500px !important;
 }
 
 .user-logo-edit {
-  background-color: green;
+  background-color: #21530C;
   border: 0px solid #000000;
   font-size: 16px;
 }
 .user-logo-edit-model{
-  background-color: green;
+  background-color: #21530C;
   border: 0px solid #000000;
   font-size: 15px;
  
 }
 
 .user-logo-delete {
-  background-color: red;
+  background-color:#5B0C0C;
   font-size: 14px;
   border: 0px solid #000000;
 }
 
 .user-logo-delete-model{
-  background-color: red;
+  background-color: #5B0C0C;
   font-size: 15px;
   border: 0px solid #000000;
  
@@ -326,8 +336,9 @@ padding-left: 500px !important;
 :where(.css-dev-only-do-not-override-vryruh).ant-segmented .ant-segmented-item-label {
   font-size: 15px;
   padding-top: 5px;
-  color: #000000;
+  color: #9d9696;
 }
+
 
 /* Table heading */
 :where(.css-dev-only-do-not-override-vryruh).ant-table-wrapper .ant-table-thead>tr>th {
@@ -374,9 +385,10 @@ padding-left: 500px !important;
 :where(.css-dev-only-do-not-override-vryruh).ant-modal .ant-modal-close {
   color: white;
 }
-
+/* Table hover */
 :where(.css-dev-only-do-not-override-vryruh).ant-table-wrapper .ant-table-tbody .ant-table-row>.ant-table-cell-row-hover {
-  color: #000000;
+  /* color: #000000; */
+  background-color: #4a4848;
 }
 
 .tagName {
@@ -384,25 +396,29 @@ padding-left: 500px !important;
 }
 
 .user-logo-edit-table {
-  background-color: green;
+  background-color:#21530C;
   border: 0px solid #000000;
   font-size: 12px;
 }
 
 .user-logo-delete-table {
-  background-color: red;
+  background-color: #5B0C0C;
   font-size: 12px;
   border: 0px solid #000000;
 }
 
+:where(.css-dev-only-do-not-override-vryruh).ant-btn-color-default {
+ color: white;
+}
+
 .female-table {
-  background-color: #EC279D;
+  background-color: #eb2f96;
   color: white;
   border: 0;
 }
 
 .male-table {
-  background-color: blue;
+  background-color:#2d38b6;
   color: white;
   border: 0;
 }
