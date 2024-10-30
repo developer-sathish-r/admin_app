@@ -27,7 +27,7 @@ const Private_Layout = () => {
 
     return (
         <Layout className='layout'>
-            <Sider className='sider' width={270} trigger={null} collapsible collapsed={collapsed}>
+            <Sider className='sider' trigger={null} collapsible collapsed={collapsed}>
                 <Row>
                     {!collapsed ?
                         <>
